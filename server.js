@@ -28,7 +28,7 @@ app.use(express.json());
 
 app.use(logger("dev"));
 
-const apiRoutes = require("./routes/api-routes");
+const apiRoutes = require("./routes/index");
 app.use("/api", apiRoutes);
 
 app.listen(PORT, () => {
