@@ -32,6 +32,10 @@
     "type": "git",
     "url": "git+https://github.com/Jomain12/GoogleBooksReact.git"
   },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.12.0"
+  },
   "keywords": [],
   "bugs": {
     "url": "https://github.com/Jomain12/GoogleBooksReact/issues"
