@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./app.css";
-import BookSearch from "./components/booksearch/booksearch";
-import SavedBooks from "./components/savedbooks/savedbooks";
-import NAV from "./components/nav/nav";
+import BookSearch from "./components/BookSearch/booksearch";
+import SavedBooks from "./components/SavedBooks/savedbooks";
+import NAV from "./components/Nav/nav";
 
 function App() {
   return (
