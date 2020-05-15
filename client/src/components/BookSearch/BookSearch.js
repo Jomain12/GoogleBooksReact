@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./booksearch.css";
-import BookList from "../BookList/booklist";
+import BookList from "../booklist/booklist";
 
 function BookSearch() {
   const [input, setInput] = useState({ input: "" });
