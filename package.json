@@ -1,5 +1,5 @@
 {
-  "name": "mern",
+  "name": "todo",
   "version": "1.0.0",
   "description": "this application will allow you to search, delete and save book from a google books API.",
   "main": "server.js",
@@ -10,7 +10,8 @@
     "build": "cd client && npm run build",
     "start": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\""
   },
-  "author": "",
+  "keywords": [],
+  "author": "Jomain Rouser",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.2",

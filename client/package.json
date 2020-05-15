@@ -1,8 +1,7 @@
 {
-  "name": "mern",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.5.0",
@@ -23,5 +22,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "proxy": "http://localhost:6000"
 }
